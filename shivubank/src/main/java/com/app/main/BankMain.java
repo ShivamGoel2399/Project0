@@ -10,6 +10,7 @@ import com.app.exception.BusinessException;
 import com.app.main.BankMain;
 import com.app.model.Customer;
 import com.app.model.Employee;
+import com.app.model.Transaction;
 import com.app.model.Account;
 import com.app.service.Customerservice;
 import com.app.service.impl.Customerserviceimpl;
@@ -239,9 +240,122 @@ public class BankMain {
 											log.warn("Account Not Created");
 										}
 										break;
-									case 2:
-									case 3:
-									case 4:
+									case 2: break;
+									case 3: 
+										long customeraccountno =0;
+										do { z=true;
+										log.info("Enter the registered Accountno");
+										long acc=0;
+										try { 
+										customeraccountno = Long.parseLong(sc.nextLine());
+										long a=customeraccountno;
+										if(!(Long.toString(a).matches("[0-9]{12}"))) {
+											log.warn("Enter A Valid Accountno");
+											z=false;
+											continue;
+										}
+										acc= customerservice.getaccountno(customeraccountno);
+										}catch(NumberFormatException e){
+											log.warn("Enter a Valid Accountno");
+										}catch(BusinessException e) {
+											log.warn(e.getMessage());
+										}
+										if(customeraccountno==acc) {
+											log.info("Accountno. id found");
+										}else {
+											log.info("Invalid Accountno. ... Enter it again");
+											z=false;
+										}
+										}while(!z);
+										do{z=true;
+										log.info("Enter the Amount you Want to Withdarw");
+										float amount=0;
+										float balance=0;
+										float newbalance=0;
+										String customername1=null;
+										try {
+											amount=Float.parseFloat((sc.nextLine()));
+											balance=customerservice.checkbalancebyaccountno(customeraccountno);
+											if(amount<=0) {
+												log.warn("Enter a positive and Valid Value for Withdrawl");
+												continue;
+											}
+										}catch(NumberFormatException e) {
+											log.warn("Enter the amount in Numbers only");	
+										}catch(BusinessException e) {
+											log.warn(e);
+										}
+										if(balance < amount) {
+											log.warn("Enter the Valid Amount to Withdraw");
+											z=false;
+										}else {
+											newbalance = customerservice.withdraw(balance, amount, customeraccountno);
+											customername1=customerservice.getcustomernamebyaccountno(customeraccountno);
+											log.info("Amount Withdrawn : "+amount+" from Accountno : "+customeraccountno+" Account holder name : "+customername1+" New Balance is : "+ newbalance);
+										}
+										
+										}while(!z);
+										
+										
+										
+										
+										break;
+									case 4: 
+										long customeraccountno1 =0;
+										do { z=true;
+										log.info("Enter the registered Accountno");
+										long acc=0;
+										try { 
+										customeraccountno1 = Long.parseLong(sc.nextLine());
+										long a=customeraccountno1;
+										if(!(Long.toString(a).matches("[0-9]{12}"))) {
+											log.warn("Enter A Valid Accountno");
+											z=false;
+											continue;
+										}
+										acc= customerservice.getaccountno(customeraccountno1);
+										}catch(NumberFormatException e){
+											log.warn("Enter a Valid Accountno");
+										}catch(BusinessException e) {
+											log.warn(e.getMessage());
+										}
+										if(customeraccountno1==acc) {
+											log.info("Accountno. id found");
+										}else {
+											log.info("Invalid Accountno. ... Enter it again");
+											z=false;
+										}
+										}while(!z);
+										do{z=true;
+										log.info("Enter the Amount you Want to Deposit");
+										float amount=0;
+										float balance=0;
+										float newbalance=0;
+										String customername1=null;
+										try {
+											amount=Float.parseFloat((sc.nextLine()));
+											balance=customerservice.checkbalancebyaccountno(customeraccountno1);
+											if(amount<=0) {
+												log.warn("Enter a positive and Valid Value for Deposition");
+												continue;
+											}
+										}catch(NumberFormatException e) {
+											log.warn("Enter the amount in Numbers only");	
+										}catch(BusinessException e) {
+											log.warn(e);
+										}
+										if(amount<=0) {
+											log.warn("Enter the Valid Amount to Deposit");
+											z=false;
+										}else {
+											newbalance = customerservice.deposit(balance, amount, customeraccountno1);
+											customername1=customerservice.getcustomernamebyaccountno(customeraccountno1);
+											log.info("Amount Deposited : "+amount+" from Accountno : "+customeraccountno1+" Account holder name : "+customername1+" New Balance is : "+ newbalance);
+										}
+										
+										}while(!z);
+										
+										break;
 									case 5:
 										
 									case 6:

@@ -16,6 +16,7 @@ import com.app.exception.BusinessException;
 import com.app.model.Account;
 import com.app.model.Customer;
 import com.app.model.Employee;
+import com.app.model.Transaction;
 
 
 
@@ -206,5 +207,130 @@ public class Bankdaoimpl implements Bankdao{
 				}
 		 return tid;
 	}
+
+	@Override
+	public long getaccountno(long accountno) throws BusinessException {
+		long taccountno =0;
+		 try (Connection connection = PostgresConnection.getConnection()) {
+			 String sql = "select accountno from banking_schema.account where accountno=?";
+			 PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			 preparedStatement.setLong(1, accountno);
+			 ResultSet resultset = preparedStatement.executeQuery();
+			 if(resultset.next()) {
+				 taccountno=resultset.getLong("accountno");
+			 }	 
+		 }catch (ClassNotFoundException | SQLException e) {
+				log.warn(e);
+				throw new BusinessException("Internal ERROR occured. Kindly contact SYSTEM ADMIN. Exception From DAOLayer");
+				}
+		 return taccountno;
+	}
+
+	@Override
+	public float checkbalancebyaccountno(long accountno) throws BusinessException {
+		float taccountbalance =0;
+		 try (Connection connection = PostgresConnection.getConnection()) {
+			 String sql = "select accountbalance from banking_schema.account where accountno=?";
+			 PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			 preparedStatement.setLong(1, accountno);
+			 ResultSet resultset = preparedStatement.executeQuery();
+			 if(resultset.next()) {
+				 taccountbalance=resultset.getLong("accountbalance");
+			 }	 
+		 }catch (ClassNotFoundException | SQLException e) {
+				log.warn(e);
+				throw new BusinessException("Internal ERROR occured. Kindly contact SYSTEM ADMIN. Exception From DAOLayer");
+				}
+		 return taccountbalance;
+	}
+
+	@Override
+	public float withdraw(float balance,float amount,long accountno) throws BusinessException {
+		String s ="Withdrawl: "+amount;
+		transaction(s, accountno);
+		float totalaccountbalance =balance-amount;
+		 try (Connection connection = PostgresConnection.getConnection()) {
+			 String sql="Update banking_schema.account set accountbalance=? where accountno=?";
+			 PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			 preparedStatement.setFloat(1, totalaccountbalance);
+			 preparedStatement.setLong(2, accountno);
+			 int c = preparedStatement.executeUpdate();
+				
+				if (c == 1 ) {
+					log.info("Withdraw is Successful");
+					 }	 
+			 }catch (ClassNotFoundException | SQLException e) {
+				log.warn(e);
+				throw new BusinessException("Internal ERROR occured. Kindly contact SYSTEM ADMIN. Exception From DAOLayer");
+				}
+		 return totalaccountbalance;
+	}
+
+	@Override
+	public String getcustomernamebyaccountno(long accountno) throws BusinessException {
+		String tcustomername =null;
+		 try (Connection connection = PostgresConnection.getConnection()) {
+			 String sql = "select c.customername from banking_schema.customer c join banking_schema.account a on c.customerid = (select a.customerid from banking_schema.account where accountno=?)";
+			 PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			 preparedStatement.setLong(1, accountno);
+			 ResultSet resultset = preparedStatement.executeQuery();
+			 if(resultset.next()) {
+				 tcustomername=resultset.getString("customername");
+			 }	 
+		 }catch (ClassNotFoundException | SQLException e) {
+				log.warn(e);
+				throw new BusinessException("Internal ERROR occured. Kindly contact SYSTEM ADMIN. Exception From DAOLayer");
+				}
+		 return tcustomername;
+	}
+
+	@Override
+	public void transaction(String transactiontype, long accountno) throws BusinessException{
+		
+		 try (Connection connection = PostgresConnection.getConnection()) {
+			 Transaction transaction = new Transaction();
+			 String sql="insert into banking_schema.transaction(transactiontype,accountno) values (?,?)";
+			 PreparedStatement preparedStatement = connection.prepareStatement(sql,Statement.RETURN_GENERATED_KEYS);
+			 preparedStatement.setString(1, transaction.getTransactiontype());
+			 preparedStatement.setLong(2, transaction.getAccountno());
+			 int c = preparedStatement.executeUpdate();
+			 if(c==1) {
+				 log.info("Transaction Successfully completed");
+					ResultSet resultset = preparedStatement.getGeneratedKeys();
+					if(resultset.next()) {
+						transaction.setTransactionid(resultset.getLong(2));
+				 }
+			 }else {
+				 log.info("Transaction Failed. Try Again");
+			 }
+			 }catch(ClassNotFoundException | SQLException e) {
+				 log.warn(e);
+					throw new BusinessException("Internal ERROR occured. Kindly contact SYSTEM ADMIN. Exception From DAOLayer");
+			 }
+		
+	}
+
+	@Override
+	public float deposit(float balance, float amount, long accountno) throws BusinessException {
+		String s ="Deposited : "+amount;
+		transaction(s, accountno);
+		float totalaccountbalance =balance+amount;
+		 try (Connection connection = PostgresConnection.getConnection()) {
+			 String sql="Update banking_schema.account set accountbalance=? where accountno=?";
+			 PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			 preparedStatement.setFloat(1, totalaccountbalance);
+			 preparedStatement.setLong(2, accountno);
+			 int c = preparedStatement.executeUpdate();
+				
+				if (c == 1 ) {
+					log.info("Money Deposited Successfully");
+					 }	 
+			 }catch (ClassNotFoundException | SQLException e) {
+				log.warn(e);
+				throw new BusinessException("Internal ERROR occured. Kindly contact SYSTEM ADMIN. Exception From DAOLayer");
+				}
+		 return totalaccountbalance;
+	}
+	
 
 }

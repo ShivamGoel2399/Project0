@@ -59,4 +59,60 @@ public class Customerserviceimpl implements Customerservice {
 	
 	}
 
+
+
+	@Override
+	public long getaccountno(long accountno) throws BusinessException {
+		if(accountno== 0){
+			throw new BusinessException("\nEnter Correct accountno. Exception from CustomerServiceimpl. ");
+		}else {
+		return bankdao.getaccountno(accountno);
+		}		
+	}
+
+
+
+	@Override
+	public float checkbalancebyaccountno(long accountno) throws BusinessException {
+		if(accountno== 0){
+			throw new BusinessException("\nEnter Correct accountno. Exception from CustomerServiceimpl. ");
+		}else {
+		return bankdao.checkbalancebyaccountno(accountno);
+		}		
+	}
+
+
+
+	@Override
+	public float withdraw(float balance,float amount,long accountno) throws BusinessException {
+		if(balance > 0){
+			throw new BusinessException("\nNot Have Enough Balance. Exception from CustomerServiceimpl. ");
+		}else {
+		return bankdao.withdraw(balance, amount, accountno);
+		}	
+	}
+
+
+
+	@Override
+	public String getcustomernamebyaccountno(long accountno) throws BusinessException {
+		if(accountno== 0){
+			throw new BusinessException("\nEnter Correct accountno. Exception from CustomerServiceimpl. ");
+		}else {
+		return bankdao.getcustomernamebyaccountno(accountno);
+		}		
+			}
+
+
+
+	@Override
+	public float deposit(float balance, float amount, long accountno) throws BusinessException {
+		if(amount <= 0){
+			throw new BusinessException("\nEnter positive Amount. Exception from CustomerServiceimpl. ");
+		}else {
+		return bankdao.withdraw(balance, amount, accountno);
+		}	
+	}
+	
+
 }

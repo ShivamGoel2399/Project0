@@ -20,4 +20,10 @@ public interface Bankdao {
 
 	public long getemployeeid(long employeeid) throws BusinessException;
 	public long getcustomerid(long customerid) throws BusinessException;
+	public long getaccountno(long accountno) throws BusinessException;
+	public float checkbalancebyaccountno(long accountno) throws BusinessException;
+	public float withdraw(float balance,float amount,long accountno) throws BusinessException;
+	public String getcustomernamebyaccountno(long accountno)throws BusinessException;
+    public  void transaction(String transactiontype, long accountno) throws BusinessException;
+    public float deposit(float balance,float amount,long accountno) throws BusinessException;
 }

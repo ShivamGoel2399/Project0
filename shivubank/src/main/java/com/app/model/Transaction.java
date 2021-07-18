@@ -4,15 +4,16 @@ public class Transaction {
 		
 	private long transactionid;
 	private String transactiontype;
-	private String customeraccountno;
+	private long accountno;
 	
 	public Transaction() {}
 
-	public Transaction(long transactionid, String transactiontype) {
+	public Transaction(long transactionid, String transactiontype, long accountno) {
 		super();
 		this.transactionid = transactionid;
 		this.transactiontype = transactiontype;
-		}
+		this.accountno = accountno;
+	}
 
 	public long getTransactionid() {
 		return transactionid;
@@ -30,25 +31,25 @@ public class Transaction {
 		this.transactiontype = transactiontype;
 	}
 
-	public String getCustomeraccountno() {
-		return customeraccountno;
+	public long getAccountno() {
+		return accountno;
 	}
 
-	public void setCustomeraccountno(String customeraccountno) {
-		this.customeraccountno = customeraccountno;
+	public void setAccountno(long accountno) {
+		this.accountno = accountno;
 	}
 
 	@Override
 	public String toString() {
-		return "Transaction [transactionid=" + transactionid + ", transactiontype=" + transactiontype
-				+ ", customeraccountno=" + customeraccountno + "]";
+		return "Transaction [transactionid=" + transactionid + ", transactiontype=" + transactiontype + ", accountno="
+				+ accountno + "]";
 	}
 
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((customeraccountno == null) ? 0 : customeraccountno.hashCode());
+		result = prime * result + (int) (accountno ^ (accountno >>> 32));
 		result = prime * result + (int) (transactionid ^ (transactionid >>> 32));
 		result = prime * result + ((transactiontype == null) ? 0 : transactiontype.hashCode());
 		return result;
@@ -63,10 +64,7 @@ public class Transaction {
 		if (getClass() != obj.getClass())
 			return false;
 		Transaction other = (Transaction) obj;
-		if (customeraccountno == null) {
-			if (other.customeraccountno != null)
-				return false;
-		} else if (!customeraccountno.equals(other.customeraccountno))
+		if (accountno != other.accountno)
 			return false;
 		if (transactionid != other.transactionid)
 			return false;
@@ -77,6 +75,9 @@ public class Transaction {
 			return false;
 		return true;
 	}
+
+	
+	
 	
 	
 	
