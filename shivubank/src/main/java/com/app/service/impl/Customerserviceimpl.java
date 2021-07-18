@@ -85,7 +85,7 @@ public class Customerserviceimpl implements Customerservice {
 
 	@Override
 	public float withdraw(float balance,float amount,long accountno) throws BusinessException {
-		if(balance > 0){
+		if(balance < amount){
 			throw new BusinessException("\nNot Have Enough Balance. Exception from CustomerServiceimpl. ");
 		}else {
 		return bankdao.withdraw(balance, amount, accountno);
@@ -110,7 +110,7 @@ public class Customerserviceimpl implements Customerservice {
 		if(amount <= 0){
 			throw new BusinessException("\nEnter positive Amount. Exception from CustomerServiceimpl. ");
 		}else {
-		return bankdao.withdraw(balance, amount, accountno);
+		return bankdao.deposit(balance, amount, accountno);
 		}	
 	}
 	

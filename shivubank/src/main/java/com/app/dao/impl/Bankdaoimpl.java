@@ -288,21 +288,12 @@ public class Bankdaoimpl implements Bankdao{
 	public void transaction(String transactiontype, long accountno) throws BusinessException{
 		
 		 try (Connection connection = PostgresConnection.getConnection()) {
-			 Transaction transaction = new Transaction();
 			 String sql="insert into banking_schema.transaction(transactiontype,accountno) values (?,?)";
 			 PreparedStatement preparedStatement = connection.prepareStatement(sql,Statement.RETURN_GENERATED_KEYS);
-			 preparedStatement.setString(1, transaction.getTransactiontype());
-			 preparedStatement.setLong(2, transaction.getAccountno());
-			 int c = preparedStatement.executeUpdate();
-			 if(c==1) {
-				 log.info("Transaction Successfully completed");
-					ResultSet resultset = preparedStatement.getGeneratedKeys();
-					if(resultset.next()) {
-						transaction.setTransactionid(resultset.getLong(2));
-				 }
-			 }else {
-				 log.info("Transaction Failed. Try Again");
-			 }
+			 preparedStatement.setString(1, transactiontype);
+			 preparedStatement.setLong(2, accountno);
+			 preparedStatement.executeUpdate();
+			
 			 }catch(ClassNotFoundException | SQLException e) {
 				 log.warn(e);
 					throw new BusinessException("Internal ERROR occured. Kindly contact SYSTEM ADMIN. Exception From DAOLayer");
@@ -324,6 +315,7 @@ public class Bankdaoimpl implements Bankdao{
 				
 				if (c == 1 ) {
 					log.info("Money Deposited Successfully");
+				
 					 }	 
 			 }catch (ClassNotFoundException | SQLException e) {
 				log.warn(e);
