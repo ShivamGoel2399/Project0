@@ -21,12 +21,13 @@ public class Employeeserviceimpl implements Employeeservice {
 	@Override
 	public List<Customer> getAllCustomers() throws BusinessException {
 		List<Customer> customerList=new ArrayList<>();
-
-		if(customerList!=null) {
-			customerList=bankdao.getAllCustomers();
-		}
-		
+		customerList=bankdao.getAllCustomers();
+	if(customerList!=null) {
 		return customerList;
+	}
+	else {
+		return null;
+	}
 	}
 
 	@Override

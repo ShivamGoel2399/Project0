@@ -169,3 +169,833 @@ press 3 to Withdraw
 press 4 to Deposit
 press 5 to view statements
 press 6 to Logout
+[main] 2021-07-19 10:46:30 INFO  com.app.main.BankMain  - Welcome to ShivuBank V1.0
+[main] 2021-07-19 10:46:30 INFO  com.app.main.BankMain  - ==================================
+[main] 2021-07-19 10:46:30 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 10:46:30 INFO  com.app.main.BankMain  - 1)LOGIN
+[main] 2021-07-19 10:46:30 INFO  com.app.main.BankMain  - 2)REGISTER AS CUSTOMER
+[main] 2021-07-19 10:46:30 INFO  com.app.main.BankMain  - 3)EXIT
+[main] 2021-07-19 10:46:30 INFO  com.app.main.BankMain  - Enter your Choice 1-3
+[main] 2021-07-19 10:46:43 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 10:46:43 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 10:46:43 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 10:46:43 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 10:46:43 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 10:46:43 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 10:46:43 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 10:46:43 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 10:46:51 INFO  com.app.main.BankMain  - 
+WELCOME TO EMPLOYEE LOGIN SCREEN
+[main] 2021-07-19 10:46:51 INFO  com.app.main.BankMain  - =====================================================
+[main] 2021-07-19 10:46:51 INFO  com.app.main.BankMain  - ENTER THE REGISTERED ID FOR EMPLOYEE 
+
+[main] 2021-07-19 10:47:55 INFO  com.app.main.BankMain  - Invalid Employee id... Enter it again
+[main] 2021-07-19 10:47:55 INFO  com.app.main.BankMain  - ENTER THE REGISTERED ID FOR EMPLOYEE 
+
+[main] 2021-07-19 10:48:06 INFO  com.app.main.BankMain  - Employee id found
+[main] 2021-07-19 10:48:06 INFO  com.app.main.BankMain  - ENTER THE REGISTERED PASSWORD FOR EMPLOYEE 
+
+[main] 2021-07-19 10:48:12 INFO  com.app.main.BankMain  - Invalid Employee password... Enter it again
+[main] 2021-07-19 10:48:12 INFO  com.app.main.BankMain  - ENTER THE REGISTERED PASSWORD FOR EMPLOYEE 
+
+[main] 2021-07-19 10:48:20 INFO  com.app.main.BankMain  - Employee password correct
+[main] 2021-07-19 10:48:20 INFO  com.app.main.BankMain  - Hello Employee with id no. : 500000
+[main] 2021-07-19 10:48:20 INFO  com.app.main.BankMain  - Employee logged into account500000
+[main] 2021-07-19 10:48:20 INFO  com.app.main.BankMain  - Welcome to ShivuBank Management
+[main] 2021-07-19 10:48:20 INFO  com.app.main.BankMain  - You have successfully logged in
+[main] 2021-07-19 10:48:20 INFO  com.app.main.BankMain  - Select the operation you want perform
+[main] 2021-07-19 10:48:20 INFO  com.app.main.BankMain  - Press 1 to see all customers
+press 2 to enable/disable account
+press 3 to logout
+[main] 2021-07-19 10:48:43 INFO  com.app.main.BankMain  - For input string: " 3"
+[main] 2021-07-19 10:48:43 INFO  com.app.main.BankMain  - Entered option is invalid... try entering 1-3
+[main] 2021-07-19 10:48:43 INFO  com.app.main.BankMain  - Employee logged into account500000
+[main] 2021-07-19 10:48:43 INFO  com.app.main.BankMain  - Welcome to ShivuBank Management
+[main] 2021-07-19 10:48:43 INFO  com.app.main.BankMain  - You have successfully logged in
+[main] 2021-07-19 10:48:43 INFO  com.app.main.BankMain  - Select the operation you want perform
+[main] 2021-07-19 10:48:43 INFO  com.app.main.BankMain  - Press 1 to see all customers
+press 2 to enable/disable account
+press 3 to logout
+[main] 2021-07-19 10:49:18 INFO  com.app.main.BankMain  - Welcome to ShivuBank V1.0
+[main] 2021-07-19 10:49:18 INFO  com.app.main.BankMain  - ==================================
+[main] 2021-07-19 10:49:18 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 10:49:18 INFO  com.app.main.BankMain  - 1)LOGIN
+[main] 2021-07-19 10:49:18 INFO  com.app.main.BankMain  - 2)REGISTER AS CUSTOMER
+[main] 2021-07-19 10:49:18 INFO  com.app.main.BankMain  - 3)EXIT
+[main] 2021-07-19 10:49:18 INFO  com.app.main.BankMain  - Enter your Choice 1-3
+[main] 2021-07-19 10:49:42 INFO  com.app.main.BankMain  - Welcome to the Registration Page
+[main] 2021-07-19 10:49:42 INFO  com.app.main.BankMain  - =============================
+[main] 2021-07-19 10:49:42 INFO  com.app.main.BankMain  - Enter your name 
+[main] 2021-07-19 10:49:51 INFO  com.app.main.BankMain  - Enter your gender (Male/Female/Other) 
+[main] 2021-07-19 10:49:54 INFO  com.app.main.BankMain  - Enter your Email Id 
+[main] 2021-07-19 10:50:02 INFO  com.app.main.BankMain  - Enter your Phone Number
+[main] 2021-07-19 10:50:10 INFO  com.app.main.BankMain  - Enter your password
+[main] 2021-07-19 10:50:22 INFO  com.app.main.BankMain  - Enter your Pan Card
+[main] 2021-07-19 10:50:49 INFO  com.app.dao.impl.Bankdaoimpl  - Registration Successful
+[main] 2021-07-19 10:50:49 INFO  com.app.main.BankMain  - Successfully registered to ShivuBank
+[main] 2021-07-19 10:50:49 INFO  com.app.main.BankMain  - Customer [customerid=100007, customername=Vinay, customerphoneno=1234567890, customergender=Male, customerpassword=vinay@123, customeremailid=asdfgh, customerpancard=ABCHE1234D]
+[main] 2021-07-19 10:50:49 INFO  com.app.main.BankMain  - Welcome to ShivuBank V1.0
+[main] 2021-07-19 10:50:49 INFO  com.app.main.BankMain  - ==================================
+[main] 2021-07-19 10:50:49 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 10:50:49 INFO  com.app.main.BankMain  - 1)LOGIN
+[main] 2021-07-19 10:50:49 INFO  com.app.main.BankMain  - 2)REGISTER AS CUSTOMER
+[main] 2021-07-19 10:50:49 INFO  com.app.main.BankMain  - 3)EXIT
+[main] 2021-07-19 10:50:49 INFO  com.app.main.BankMain  - Enter your Choice 1-3
+[main] 2021-07-19 10:51:10 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 10:51:10 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 10:51:10 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 10:51:10 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 10:51:10 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 10:51:10 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 10:51:10 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 10:51:10 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 10:51:13 INFO  com.app.main.BankMain  - 
+WELCOME TO CUSTOMER LOGIN SCREEN
+[main] 2021-07-19 10:51:13 INFO  com.app.main.BankMain  - ======================================================
+[main] 2021-07-19 10:51:13 INFO  com.app.main.BankMain  - ENTER THE REGISTERED ID FOR CUSTOMER 
+
+[main] 2021-07-19 10:51:24 INFO  com.app.main.BankMain  - Customer id found
+[main] 2021-07-19 10:51:24 INFO  com.app.main.BankMain  - ENTER THE REGISTERED PASSWORD FOR CUSTOMER 
+
+[main] 2021-07-19 10:51:32 INFO  com.app.main.BankMain  - Invalid Customer password... Enter it again
+[main] 2021-07-19 10:51:32 INFO  com.app.main.BankMain  - ENTER THE REGISTERED PASSWORD FOR CUSTOMER 
+
+[main] 2021-07-19 10:51:42 INFO  com.app.main.BankMain  - Invalid Customer password... Enter it again
+[main] 2021-07-19 10:51:42 INFO  com.app.main.BankMain  - ENTER THE REGISTERED PASSWORD FOR CUSTOMER 
+
+[main] 2021-07-19 10:52:13 INFO  com.app.main.BankMain  - Customer password correct
+[main] 2021-07-19 10:52:13 INFO  com.app.main.BankMain  - Hello Customer with id no. : 100007
+[main] 2021-07-19 10:52:13 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100007
+[main] 2021-07-19 10:52:13 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 10:52:13 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 10:52:13 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 10:52:13 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 10:52:31 INFO  com.app.main.BankMain  - Enter the registered id
+[main] 2021-07-19 10:52:37 INFO  com.app.main.BankMain  - Enter your Account type Details
+[main] 2021-07-19 10:52:43 INFO  com.app.main.BankMain  - Enter your Opening Balance Amount
+[main] 2021-07-19 10:52:47 INFO  com.app.main.BankMain  - Enter your aadhar card number
+[main] 2021-07-19 10:52:57 INFO  com.app.dao.impl.Bankdaoimpl  - Account Opened Successfully
+[main] 2021-07-19 10:52:57 INFO  com.app.main.BankMain  - Successfully registered to ShivuBank
+[main] 2021-07-19 10:52:57 INFO  com.app.main.BankMain  - Account [customeraccountno=0, accountbalance=15000.0, accounttype=Saving, accountstatus=false, customerid=100007, customeraadharno=123412341234]
+[main] 2021-07-19 10:52:57 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100007
+[main] 2021-07-19 10:52:57 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 10:52:57 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 10:52:57 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 10:52:57 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 10:54:10 INFO  com.app.main.BankMain  - Enter the registered Accountno
+[main] 2021-07-19 10:54:22 INFO  com.app.main.BankMain  - Accountno. id found
+[main] 2021-07-19 10:54:22 INFO  com.app.main.BankMain  - Enter the Amount you Want to Deposit
+[main] 2021-07-19 10:54:33 INFO  com.app.dao.impl.Bankdaoimpl  - Money Deposited Successfully
+[main] 2021-07-19 10:54:33 INFO  com.app.main.BankMain  - Amount Deposited : 5000.0 from Accountno : 199923000001 Account holder name : asdf New Balance is : 20000.0
+[main] 2021-07-19 10:54:33 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100007
+[main] 2021-07-19 10:54:33 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 10:54:33 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 10:54:33 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 10:54:33 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 10:56:27 INFO  com.app.main.BankMain  - Enter the registered Accountno
+[main] 2021-07-19 10:56:34 INFO  com.app.main.BankMain  - Accountno. id found
+[main] 2021-07-19 10:56:34 INFO  com.app.main.BankMain  - Enter the Amount you Want to Withdarw
+[main] 2021-07-19 10:56:41 INFO  com.app.dao.impl.Bankdaoimpl  - Withdraw is Successful
+[main] 2021-07-19 10:56:42 INFO  com.app.main.BankMain  - Amount Withdrawn : 9000.0 from Accountno : 199923000001 Account holder name : asdf New Balance is : 11000.0
+[main] 2021-07-19 10:56:42 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100007
+[main] 2021-07-19 10:56:42 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 10:56:42 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 10:56:42 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 10:56:42 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 10:57:37 INFO  com.app.main.BankMain  - For input string: ""
+[main] 2021-07-19 10:57:37 INFO  com.app.main.BankMain  - Enter the registered Accountno
+[main] 2021-07-19 11:00:03 INFO  com.app.main.BankMain  - Welcome to ShivuBank V1.0
+[main] 2021-07-19 11:00:03 INFO  com.app.main.BankMain  - ==================================
+[main] 2021-07-19 11:00:03 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 11:00:03 INFO  com.app.main.BankMain  - 1)LOGIN
+[main] 2021-07-19 11:00:03 INFO  com.app.main.BankMain  - 2)REGISTER AS CUSTOMER
+[main] 2021-07-19 11:00:03 INFO  com.app.main.BankMain  - 3)EXIT
+[main] 2021-07-19 11:00:03 INFO  com.app.main.BankMain  - Enter your Choice 1-3
+[main] 2021-07-19 11:00:11 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 11:00:11 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 11:00:11 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 11:00:11 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 11:00:11 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 11:00:11 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 11:00:11 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 11:00:11 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 11:00:15 INFO  com.app.main.BankMain  - 
+WELCOME TO CUSTOMER LOGIN SCREEN
+[main] 2021-07-19 11:00:15 INFO  com.app.main.BankMain  - ======================================================
+[main] 2021-07-19 11:00:15 INFO  com.app.main.BankMain  - ENTER THE REGISTERED ID FOR CUSTOMER 
+
+[main] 2021-07-19 11:00:21 INFO  com.app.main.BankMain  - Customer id found
+[main] 2021-07-19 11:00:21 INFO  com.app.main.BankMain  - ENTER THE REGISTERED PASSWORD FOR CUSTOMER 
+
+[main] 2021-07-19 11:00:28 INFO  com.app.main.BankMain  - Customer password correct
+[main] 2021-07-19 11:00:28 INFO  com.app.main.BankMain  - Hello Customer with id no. : 100007
+[main] 2021-07-19 11:00:28 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100007
+[main] 2021-07-19 11:00:28 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 11:00:28 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 11:00:28 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 11:00:28 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 11:00:34 INFO  com.app.main.BankMain  - Enter the registered Accountno
+[main] 2021-07-19 11:00:41 INFO  com.app.main.BankMain  - Accountno. id found
+[main] 2021-07-19 11:00:41 INFO  com.app.main.BankMain  - Enter the Amount you Want to Withdarw
+[main] 2021-07-19 11:00:55 WARN  com.app.main.BankMain  - Enter a positive and Valid Value for Withdrawl
+[main] 2021-07-19 11:00:55 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100007
+[main] 2021-07-19 11:00:55 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 11:00:55 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 11:00:55 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 11:00:55 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 11:01:12 INFO  com.app.main.BankMain  - Thank you for using our Banking Services. Goodbye....!
+[main] 2021-07-19 11:01:12 INFO  com.app.main.BankMain  - 
+
+Going to Main Menu............
+
+
+[main] 2021-07-19 11:01:12 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 11:01:12 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 11:01:12 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 11:01:12 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 11:01:12 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 11:01:12 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 11:01:12 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 11:01:12 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 11:01:23 INFO  com.app.main.BankMain  - 
+
+Going to Main Menu............
+
+
+[main] 2021-07-19 11:01:23 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 11:01:23 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 11:01:23 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 11:01:23 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 11:01:23 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 11:01:23 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 11:01:23 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 11:01:23 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 11:01:28 INFO  com.app.main.BankMain  - Thanks for using our ShivuBank App.. See you soon. :)
+[main] 2021-07-19 11:22:51 INFO  com.app.main.BankMain  - Welcome to ShivuBank V1.0
+[main] 2021-07-19 11:22:51 INFO  com.app.main.BankMain  - ==================================
+[main] 2021-07-19 11:22:51 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 11:22:51 INFO  com.app.main.BankMain  - 1)LOGIN
+[main] 2021-07-19 11:22:51 INFO  com.app.main.BankMain  - 2)REGISTER AS CUSTOMER
+[main] 2021-07-19 11:22:51 INFO  com.app.main.BankMain  - 3)EXIT
+[main] 2021-07-19 11:22:51 INFO  com.app.main.BankMain  - Enter your Choice 1-3
+[main] 2021-07-19 11:23:08 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 11:23:08 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 11:23:08 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 11:23:08 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 11:23:08 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 11:23:08 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 11:23:08 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 11:23:08 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 11:30:37 INFO  com.app.main.BankMain  - Thanks for using our ShivuBank App.. See you soon. :)
+[main] 2021-07-19 11:53:38 INFO  com.app.main.BankMain  - Welcome to ShivuBank V1.0
+[main] 2021-07-19 11:53:38 INFO  com.app.main.BankMain  - ==================================
+[main] 2021-07-19 11:53:38 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 11:53:38 INFO  com.app.main.BankMain  - 1)LOGIN
+[main] 2021-07-19 11:53:38 INFO  com.app.main.BankMain  - 2)REGISTER AS CUSTOMER
+[main] 2021-07-19 11:53:38 INFO  com.app.main.BankMain  - 3)EXIT
+[main] 2021-07-19 11:53:38 INFO  com.app.main.BankMain  - Enter your Choice 1-3
+[main] 2021-07-19 11:53:49 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 11:53:49 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 11:53:49 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 11:53:49 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 11:53:49 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 11:53:49 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 11:53:49 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 11:53:49 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 11:53:52 INFO  com.app.main.BankMain  - 
+WELCOME TO EMPLOYEE LOGIN SCREEN
+[main] 2021-07-19 11:53:52 INFO  com.app.main.BankMain  - =====================================================
+[main] 2021-07-19 11:53:52 INFO  com.app.main.BankMain  - ENTER THE REGISTERED ID FOR EMPLOYEE 
+
+[main] 2021-07-19 11:54:02 INFO  com.app.main.BankMain  - Employee id found
+[main] 2021-07-19 11:54:02 INFO  com.app.main.BankMain  - ENTER THE REGISTERED PASSWORD FOR EMPLOYEE 
+
+[main] 2021-07-19 11:54:10 INFO  com.app.main.BankMain  - Employee password correct
+[main] 2021-07-19 11:54:10 INFO  com.app.main.BankMain  - Hello Employee with id no. : 500000
+[main] 2021-07-19 11:54:10 INFO  com.app.main.BankMain  - Employee logged into account500000
+[main] 2021-07-19 11:54:10 INFO  com.app.main.BankMain  - Welcome to ShivuBank Management
+[main] 2021-07-19 11:54:10 INFO  com.app.main.BankMain  - You have successfully logged in
+[main] 2021-07-19 11:54:10 INFO  com.app.main.BankMain  - Select the operation you want perform
+[main] 2021-07-19 11:54:10 INFO  com.app.main.BankMain  - Press 1 to see all customers
+press 2 to enable/disable account
+press 3 to logout
+[main] 2021-07-19 11:54:16 INFO  com.app.main.BankMain  - Customer [customerid=100000, customername=shivam, customerphoneno=9987898988, customergender=male, customerpassword=skhsdak, customeremailid=ndiasdbdci, customerpancard=null]
+[main] 2021-07-19 11:54:16 INFO  com.app.main.BankMain  - Customer [customerid=100001, customername=shiv, customerphoneno=9876543210, customergender=male, customerpassword=shivu@123, customeremailid=1, customerpancard=null]
+[main] 2021-07-19 11:54:16 INFO  com.app.main.BankMain  - Customer [customerid=100003, customername=shivu, customerphoneno=9807654321, customergender=male, customerpassword=shiva@123, customeremailid=abc, customerpancard=null]
+[main] 2021-07-19 11:54:16 INFO  com.app.main.BankMain  - Customer [customerid=100004, customername=shivu, customerphoneno=9807654321, customergender=male, customerpassword=shiva@123, customeremailid=abc, customerpancard=null]
+[main] 2021-07-19 11:54:16 INFO  com.app.main.BankMain  - Customer [customerid=100005, customername=asdf, customerphoneno=1234567890, customergender=male, customerpassword=asdfg, customeremailid=abcd, customerpancard=null]
+[main] 2021-07-19 11:54:16 INFO  com.app.main.BankMain  - Customer [customerid=100006, customername=asdf, customerphoneno=1234567890, customergender=male, customerpassword=asdfg, customeremailid=abcd, customerpancard=null]
+[main] 2021-07-19 11:54:16 INFO  com.app.main.BankMain  - Customer [customerid=100007, customername=Vinay, customerphoneno=1234567890, customergender=Male, customerpassword=vinay@123, customeremailid=asdfgh, customerpancard=null]
+[main] 2021-07-19 11:54:16 INFO  com.app.main.BankMain  - Employee logged into account500000
+[main] 2021-07-19 11:54:16 INFO  com.app.main.BankMain  - Welcome to ShivuBank Management
+[main] 2021-07-19 11:54:16 INFO  com.app.main.BankMain  - You have successfully logged in
+[main] 2021-07-19 11:54:16 INFO  com.app.main.BankMain  - Select the operation you want perform
+[main] 2021-07-19 11:54:16 INFO  com.app.main.BankMain  - Press 1 to see all customers
+press 2 to enable/disable account
+press 3 to logout
+[main] 2021-07-19 11:54:25 INFO  com.app.main.BankMain  - Thankyou For Using ShivuBank App.. Have a Nice Day
+[main] 2021-07-19 11:54:25 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 11:54:25 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 11:54:25 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 11:54:25 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 11:54:25 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 11:54:25 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 11:54:25 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 11:54:25 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 11:54:42 INFO  com.app.main.BankMain  - 
+WELCOME TO CUSTOMER LOGIN SCREEN
+[main] 2021-07-19 11:54:42 INFO  com.app.main.BankMain  - ======================================================
+[main] 2021-07-19 11:54:42 INFO  com.app.main.BankMain  - ENTER THE REGISTERED ID FOR CUSTOMER 
+
+[main] 2021-07-19 11:54:55 INFO  com.app.main.BankMain  - Customer id found
+[main] 2021-07-19 11:54:55 INFO  com.app.main.BankMain  - ENTER THE REGISTERED PASSWORD FOR CUSTOMER 
+
+[main] 2021-07-19 11:55:04 INFO  com.app.main.BankMain  - Customer password correct
+[main] 2021-07-19 11:55:04 INFO  com.app.main.BankMain  - Hello Customer with id no. : 100007
+[main] 2021-07-19 11:55:04 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100007
+[main] 2021-07-19 11:55:04 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 11:55:04 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 11:55:04 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 11:55:04 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 11:55:11 INFO  com.app.main.BankMain  - Enter the registered Accountno
+[main] 2021-07-19 11:55:24 INFO  com.app.main.BankMain  - Accountno. id found
+[main] 2021-07-19 11:55:24 INFO  com.app.main.BankMain  - Enter the Amount you Want to Deposit
+[main] 2021-07-19 11:55:34 INFO  com.app.dao.impl.Bankdaoimpl  - Money Deposited Successfully
+[main] 2021-07-19 11:55:34 INFO  com.app.main.BankMain  - Amount Deposited : 8000.0 from Accountno : 199923000001 Account holder name : asdf New Balance is : 19000.0
+[main] 2021-07-19 11:55:34 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100007
+[main] 2021-07-19 11:55:34 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 11:55:34 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 11:55:34 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 11:55:34 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 12:02:11 INFO  com.app.main.BankMain  - Enter the registered Accountno
+[main] 2021-07-19 12:02:18 INFO  com.app.main.BankMain  - Accountno. id found
+[main] 2021-07-19 12:02:18 INFO  com.app.main.BankMain  - Enter the Amount you Want to Deposit
+[main] 2021-07-19 12:02:23 INFO  com.app.dao.impl.Bankdaoimpl  - Money Deposited Successfully
+[main] 2021-07-19 12:02:23 INFO  com.app.main.BankMain  - Amount Deposited : 2000.0 from Accountno : 199923000001 Account holder name : asdf New Balance is : 21000.0
+[main] 2021-07-19 12:02:23 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100007
+[main] 2021-07-19 12:02:23 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 12:02:23 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 12:02:23 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 12:02:23 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 12:02:45 INFO  com.app.main.BankMain  - Welcome to ShivuBank V1.0
+[main] 2021-07-19 12:02:45 INFO  com.app.main.BankMain  - ==================================
+[main] 2021-07-19 12:02:45 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:02:45 INFO  com.app.main.BankMain  - 1)LOGIN
+[main] 2021-07-19 12:02:45 INFO  com.app.main.BankMain  - 2)REGISTER AS CUSTOMER
+[main] 2021-07-19 12:02:45 INFO  com.app.main.BankMain  - 3)EXIT
+[main] 2021-07-19 12:02:45 INFO  com.app.main.BankMain  - Enter your Choice 1-3
+[main] 2021-07-19 12:02:51 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:02:51 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 12:02:51 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 12:02:51 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 12:02:51 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 12:02:51 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 12:02:51 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 12:02:51 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 12:02:59 INFO  com.app.main.BankMain  - 
+WELCOME TO CUSTOMER LOGIN SCREEN
+[main] 2021-07-19 12:02:59 INFO  com.app.main.BankMain  - ======================================================
+[main] 2021-07-19 12:02:59 INFO  com.app.main.BankMain  - ENTER THE REGISTERED ID FOR CUSTOMER 
+
+[main] 2021-07-19 12:03:07 INFO  com.app.main.BankMain  - Customer id found
+[main] 2021-07-19 12:03:07 INFO  com.app.main.BankMain  - ENTER THE REGISTERED PASSWORD FOR CUSTOMER 
+
+[main] 2021-07-19 12:03:13 INFO  com.app.main.BankMain  - Customer password correct
+[main] 2021-07-19 12:03:13 INFO  com.app.main.BankMain  - Hello Customer with id no. : 100007
+[main] 2021-07-19 12:03:13 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100007
+[main] 2021-07-19 12:03:13 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 12:03:13 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 12:03:13 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 12:03:13 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 12:03:18 INFO  com.app.main.BankMain  - Enter the registered Accountno
+[main] 2021-07-19 12:03:25 INFO  com.app.main.BankMain  - Accountno. id found
+[main] 2021-07-19 12:03:25 INFO  com.app.main.BankMain  - Enter the Amount you Want to Deposit
+[main] 2021-07-19 12:03:30 INFO  com.app.dao.impl.Bankdaoimpl  - Money Deposited Successfully
+[main] 2021-07-19 12:03:31 INFO  com.app.main.BankMain  - Amount Deposited : 2000.0 from Accountno : 199923000001 Account holder name : Vinay New Balance is : 23000.0
+[main] 2021-07-19 12:03:31 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100007
+[main] 2021-07-19 12:03:31 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 12:03:31 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 12:03:31 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 12:03:31 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 12:04:33 INFO  com.app.main.BankMain  - Thank you for using our Banking Services. Goodbye....!
+[main] 2021-07-19 12:04:33 INFO  com.app.main.BankMain  - 
+
+Going to Main Menu............
+
+
+[main] 2021-07-19 12:04:33 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:04:33 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 12:04:33 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 12:04:33 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 12:04:33 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 12:04:33 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 12:04:33 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 12:04:33 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 12:04:41 INFO  com.app.main.BankMain  - 
+
+Going to Main Menu............
+
+
+[main] 2021-07-19 12:04:41 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:04:41 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 12:04:41 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 12:04:41 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 12:04:41 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 12:04:41 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 12:04:41 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 12:04:41 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 12:04:46 INFO  com.app.main.BankMain  - Thanks for using our ShivuBank App.. See you soon. :)
+[main] 2021-07-19 12:07:38 INFO  com.app.main.BankMain  - Welcome to ShivuBank V1.0
+[main] 2021-07-19 12:07:38 INFO  com.app.main.BankMain  - ==================================
+[main] 2021-07-19 12:07:38 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:07:38 INFO  com.app.main.BankMain  - 1)LOGIN
+[main] 2021-07-19 12:07:38 INFO  com.app.main.BankMain  - 2)REGISTER AS CUSTOMER
+[main] 2021-07-19 12:07:38 INFO  com.app.main.BankMain  - 3)EXIT
+[main] 2021-07-19 12:07:38 INFO  com.app.main.BankMain  - Enter your Choice 1-3
+[main] 2021-07-19 12:07:44 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:07:44 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 12:07:44 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 12:07:44 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 12:07:44 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 12:07:44 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 12:07:44 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 12:07:44 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 12:07:46 INFO  com.app.main.BankMain  - 
+WELCOME TO CUSTOMER LOGIN SCREEN
+[main] 2021-07-19 12:07:46 INFO  com.app.main.BankMain  - ======================================================
+[main] 2021-07-19 12:07:46 INFO  com.app.main.BankMain  - ENTER THE REGISTERED ID FOR CUSTOMER 
+
+[main] 2021-07-19 12:07:52 INFO  com.app.main.BankMain  - Customer id found
+[main] 2021-07-19 12:07:52 INFO  com.app.main.BankMain  - ENTER THE REGISTERED PASSWORD FOR CUSTOMER 
+
+[main] 2021-07-19 12:07:58 INFO  com.app.main.BankMain  - Customer password correct
+[main] 2021-07-19 12:07:58 INFO  com.app.main.BankMain  - Hello Customer with id no. : 100007
+[main] 2021-07-19 12:07:58 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100007
+[main] 2021-07-19 12:07:58 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 12:07:58 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 12:07:58 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 12:07:58 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 12:08:26 INFO  com.app.main.BankMain  - Thank you for using our Banking Services. Goodbye....!
+[main] 2021-07-19 12:08:26 INFO  com.app.main.BankMain  - 
+
+Going to Main Menu............
+
+
+[main] 2021-07-19 12:08:26 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:08:26 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 12:08:26 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 12:08:26 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 12:08:26 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 12:08:26 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 12:08:26 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 12:08:26 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 12:08:29 INFO  com.app.main.BankMain  - 
+
+Going to Main Menu............
+
+
+[main] 2021-07-19 12:08:29 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:08:29 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 12:08:29 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 12:08:29 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 12:08:29 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 12:08:29 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 12:08:29 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 12:08:29 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 12:08:40 INFO  com.app.main.BankMain  - 
+
+Going to Main Menu............
+
+
+[main] 2021-07-19 12:08:40 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:08:40 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 12:08:40 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 12:08:40 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 12:08:40 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 12:08:40 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 12:08:40 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 12:08:40 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 12:10:59 INFO  com.app.main.BankMain  - Thanks for using our ShivuBank App.. See you soon. :)
+[main] 2021-07-19 12:11:08 INFO  com.app.main.BankMain  - Welcome to ShivuBank V1.0
+[main] 2021-07-19 12:11:08 INFO  com.app.main.BankMain  - ==================================
+[main] 2021-07-19 12:11:08 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:11:08 INFO  com.app.main.BankMain  - 1)LOGIN
+[main] 2021-07-19 12:11:08 INFO  com.app.main.BankMain  - 2)REGISTER AS CUSTOMER
+[main] 2021-07-19 12:11:08 INFO  com.app.main.BankMain  - 3)EXIT
+[main] 2021-07-19 12:11:08 INFO  com.app.main.BankMain  - Enter your Choice 1-3
+[main] 2021-07-19 12:11:12 INFO  com.app.main.BankMain  - Welcome to the Registration Page
+[main] 2021-07-19 12:11:12 INFO  com.app.main.BankMain  - =============================
+[main] 2021-07-19 12:11:12 INFO  com.app.main.BankMain  - Enter your name 
+[main] 2021-07-19 12:11:21 INFO  com.app.main.BankMain  - Enter your gender (Male/Female/Other) 
+[main] 2021-07-19 12:11:27 INFO  com.app.main.BankMain  - Enter your Email Id 
+[main] 2021-07-19 12:11:43 INFO  com.app.main.BankMain  - Enter your Phone Number
+[main] 2021-07-19 12:11:50 INFO  com.app.main.BankMain  - Enter your password
+[main] 2021-07-19 12:12:11 INFO  com.app.main.BankMain  - Enter your Pan Card
+[main] 2021-07-19 12:12:23 INFO  com.app.dao.impl.Bankdaoimpl  - Registration Successful
+[main] 2021-07-19 12:12:23 INFO  com.app.main.BankMain  - Successfully registered to ShivuBank
+[main] 2021-07-19 12:12:23 INFO  com.app.main.BankMain  - Customer [customerid=100008, customername=rahul, customerphoneno=9999988888, customergender=male, customerpassword=shivu123, customeremailid=rahul123, customerpancard=AQWSZ1234A]
+[main] 2021-07-19 12:12:23 INFO  com.app.main.BankMain  - Welcome to ShivuBank V1.0
+[main] 2021-07-19 12:12:23 INFO  com.app.main.BankMain  - ==================================
+[main] 2021-07-19 12:12:23 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:12:23 INFO  com.app.main.BankMain  - 1)LOGIN
+[main] 2021-07-19 12:12:23 INFO  com.app.main.BankMain  - 2)REGISTER AS CUSTOMER
+[main] 2021-07-19 12:12:23 INFO  com.app.main.BankMain  - 3)EXIT
+[main] 2021-07-19 12:12:23 INFO  com.app.main.BankMain  - Enter your Choice 1-3
+[main] 2021-07-19 12:13:38 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:13:38 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 12:13:38 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 12:13:38 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 12:13:38 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 12:13:38 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 12:13:38 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 12:13:38 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 12:13:40 INFO  com.app.main.BankMain  - 
+WELCOME TO CUSTOMER LOGIN SCREEN
+[main] 2021-07-19 12:13:40 INFO  com.app.main.BankMain  - ======================================================
+[main] 2021-07-19 12:13:40 INFO  com.app.main.BankMain  - ENTER THE REGISTERED ID FOR CUSTOMER 
+
+[main] 2021-07-19 12:13:48 INFO  com.app.main.BankMain  - Customer id found
+[main] 2021-07-19 12:13:48 INFO  com.app.main.BankMain  - ENTER THE REGISTERED PASSWORD FOR CUSTOMER 
+
+[main] 2021-07-19 12:16:24 INFO  com.app.main.BankMain  - Customer password correct
+[main] 2021-07-19 12:16:24 INFO  com.app.main.BankMain  - Hello Customer with id no. : 100008
+[main] 2021-07-19 12:16:24 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100008
+[main] 2021-07-19 12:16:24 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 12:16:24 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 12:16:24 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 12:16:24 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 12:16:28 INFO  com.app.main.BankMain  - Enter the registered id
+[main] 2021-07-19 12:16:36 INFO  com.app.main.BankMain  - Enter your Account type Details
+[main] 2021-07-19 12:16:44 INFO  com.app.main.BankMain  - Enter your Opening Balance Amount
+[main] 2021-07-19 12:16:50 INFO  com.app.main.BankMain  - Enter your aadhar card number
+[main] 2021-07-19 12:16:59 INFO  com.app.dao.impl.Bankdaoimpl  - Account Opened Successfully
+[main] 2021-07-19 12:16:59 INFO  com.app.main.BankMain  - Successfully registered to ShivuBank
+[main] 2021-07-19 12:16:59 INFO  com.app.main.BankMain  - Account [customeraccountno=199923000002, accountbalance=10000.0, accounttype=savings, accountstatus=false, customerid=100008, customeraadharno=123443211234]
+[main] 2021-07-19 12:16:59 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100008
+[main] 2021-07-19 12:16:59 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 12:16:59 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 12:16:59 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 12:16:59 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 12:17:53 INFO  com.app.main.BankMain  - Thank you for using our Banking Services. Goodbye....!
+[main] 2021-07-19 12:17:53 INFO  com.app.main.BankMain  - 
+
+Going to Main Menu............
+
+
+[main] 2021-07-19 12:17:53 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:17:53 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 12:17:53 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 12:17:53 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 12:17:53 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 12:17:53 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 12:17:53 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 12:17:53 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 12:18:40 INFO  com.app.main.BankMain  - Thanks for using our ShivuBank App.. See you soon. :)
+[main] 2021-07-19 12:18:47 INFO  com.app.main.BankMain  - Welcome to ShivuBank V1.0
+[main] 2021-07-19 12:18:47 INFO  com.app.main.BankMain  - ==================================
+[main] 2021-07-19 12:18:47 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:18:47 INFO  com.app.main.BankMain  - 1)LOGIN
+[main] 2021-07-19 12:18:47 INFO  com.app.main.BankMain  - 2)REGISTER AS CUSTOMER
+[main] 2021-07-19 12:18:47 INFO  com.app.main.BankMain  - 3)EXIT
+[main] 2021-07-19 12:18:47 INFO  com.app.main.BankMain  - Enter your Choice 1-3
+[main] 2021-07-19 12:18:52 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:18:52 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 12:18:52 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 12:18:52 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 12:18:52 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 12:18:52 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 12:18:52 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 12:18:52 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 12:18:56 INFO  com.app.main.BankMain  - 
+
+Going to Main Menu............
+
+
+[main] 2021-07-19 12:18:56 INFO  com.app.main.BankMain  - Welcome to ShivuBank V1.0
+[main] 2021-07-19 12:18:56 INFO  com.app.main.BankMain  - ==================================
+[main] 2021-07-19 12:18:56 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:18:56 INFO  com.app.main.BankMain  - 1)LOGIN
+[main] 2021-07-19 12:18:56 INFO  com.app.main.BankMain  - 2)REGISTER AS CUSTOMER
+[main] 2021-07-19 12:18:56 INFO  com.app.main.BankMain  - 3)EXIT
+[main] 2021-07-19 12:18:56 INFO  com.app.main.BankMain  - Enter your Choice 1-3
+[main] 2021-07-19 12:20:16 INFO  com.app.main.BankMain  - Thanks for using our ShivuBank App.. See you soon. :)
+[main] 2021-07-19 12:59:20 INFO  com.app.main.BankMain  - Welcome to ShivuBank V1.0
+[main] 2021-07-19 12:59:20 INFO  com.app.main.BankMain  - ==================================
+[main] 2021-07-19 12:59:20 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 12:59:20 INFO  com.app.main.BankMain  - 1)LOGIN
+[main] 2021-07-19 12:59:20 INFO  com.app.main.BankMain  - 2)REGISTER AS CUSTOMER
+[main] 2021-07-19 12:59:20 INFO  com.app.main.BankMain  - 3)EXIT
+[main] 2021-07-19 12:59:20 INFO  com.app.main.BankMain  - Enter your Choice 1-3
+[main] 2021-07-19 12:59:30 INFO  com.app.main.BankMain  - Welcome to the Registration Page
+[main] 2021-07-19 12:59:30 INFO  com.app.main.BankMain  - =============================
+[main] 2021-07-19 12:59:30 INFO  com.app.main.BankMain  - Enter your name 
+[main] 2021-07-19 12:59:37 INFO  com.app.main.BankMain  - Enter your gender (Male/Female/Other) 
+[main] 2021-07-19 12:59:41 INFO  com.app.main.BankMain  - Enter your Email Id 
+[main] 2021-07-19 12:59:50 INFO  com.app.main.BankMain  - Enter your Phone Number
+[main] 2021-07-19 13:00:01 INFO  com.app.main.BankMain  - Enter your password
+[main] 2021-07-19 13:00:09 INFO  com.app.main.BankMain  - Enter your Pan Card
+[main] 2021-07-19 13:00:18 INFO  com.app.dao.impl.Bankdaoimpl  - Registration Successful
+[main] 2021-07-19 13:00:18 INFO  com.app.main.BankMain  - Successfully registered to ShivuBank
+[main] 2021-07-19 13:00:18 INFO  com.app.main.BankMain  - Customer [customerid=100009, customername=anmol, customerphoneno=1234567809, customergender=male, customerpassword=anmol123, customeremailid=amnol@123, customerpancard=ZXCVB1234N]
+[main] 2021-07-19 13:00:18 INFO  com.app.main.BankMain  - Welcome to ShivuBank V1.0
+[main] 2021-07-19 13:00:18 INFO  com.app.main.BankMain  - ==================================
+[main] 2021-07-19 13:00:18 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 13:00:18 INFO  com.app.main.BankMain  - 1)LOGIN
+[main] 2021-07-19 13:00:18 INFO  com.app.main.BankMain  - 2)REGISTER AS CUSTOMER
+[main] 2021-07-19 13:00:18 INFO  com.app.main.BankMain  - 3)EXIT
+[main] 2021-07-19 13:00:18 INFO  com.app.main.BankMain  - Enter your Choice 1-3
+[main] 2021-07-19 13:00:29 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 13:00:29 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 13:00:29 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 13:00:29 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 13:00:29 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 13:00:29 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 13:00:29 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 13:00:29 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 13:00:32 INFO  com.app.main.BankMain  - 
+WELCOME TO CUSTOMER LOGIN SCREEN
+[main] 2021-07-19 13:00:32 INFO  com.app.main.BankMain  - ======================================================
+[main] 2021-07-19 13:00:32 INFO  com.app.main.BankMain  - ENTER THE REGISTERED ID FOR CUSTOMER 
+
+[main] 2021-07-19 13:00:38 INFO  com.app.main.BankMain  - Customer id found
+[main] 2021-07-19 13:00:38 INFO  com.app.main.BankMain  - ENTER THE REGISTERED PASSWORD FOR CUSTOMER 
+
+[main] 2021-07-19 13:00:53 INFO  com.app.main.BankMain  - Customer password correct
+[main] 2021-07-19 13:00:53 INFO  com.app.main.BankMain  - Hello Customer with id no. : 100009
+[main] 2021-07-19 13:00:53 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100009
+[main] 2021-07-19 13:00:53 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 13:00:53 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 13:00:53 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 13:00:53 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 13:00:58 INFO  com.app.main.BankMain  - For input string: ""
+[main] 2021-07-19 13:00:58 WARN  com.app.main.BankMain  - Invalid Choice... Please enter input between 1-4
+[main] 2021-07-19 13:00:58 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100009
+[main] 2021-07-19 13:00:58 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 13:00:58 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 13:00:58 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 13:00:58 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 13:01:04 INFO  com.app.main.BankMain  - Enter the registered id
+[main] 2021-07-19 13:01:21 INFO  com.app.main.BankMain  - Enter your Account type Details
+[main] 2021-07-19 13:01:28 INFO  com.app.main.BankMain  - Enter your Opening Balance Amount
+[main] 2021-07-19 13:01:32 INFO  com.app.main.BankMain  - Enter your aadhar card number
+[main] 2021-07-19 13:01:44 INFO  com.app.dao.impl.Bankdaoimpl  - Account Opened Successfully
+[main] 2021-07-19 13:01:44 INFO  com.app.main.BankMain  - Successfully registered to ShivuBank
+[main] 2021-07-19 13:01:44 INFO  com.app.main.BankMain  - Account [customeraccountno=199923000003, accountbalance=13000.0, accounttype=current, accountstatus=false, customerid=100009, customeraadharno=987498749874]
+[main] 2021-07-19 13:01:44 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100009
+[main] 2021-07-19 13:01:44 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 13:01:44 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 13:01:44 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 13:01:44 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 13:02:08 INFO  com.app.main.BankMain  - Thank you for using our Banking Services. Goodbye....!
+[main] 2021-07-19 13:02:08 INFO  com.app.main.BankMain  - 
+
+Going to Main Menu............
+
+
+[main] 2021-07-19 13:02:08 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 13:02:08 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 13:02:08 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 13:02:08 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 13:02:08 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 13:02:08 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 13:02:08 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 13:02:08 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 13:02:15 INFO  com.app.main.BankMain  - 
+WELCOME TO EMPLOYEE LOGIN SCREEN
+[main] 2021-07-19 13:02:15 INFO  com.app.main.BankMain  - =====================================================
+[main] 2021-07-19 13:02:15 INFO  com.app.main.BankMain  - ENTER THE REGISTERED ID FOR EMPLOYEE 
+
+[main] 2021-07-19 13:02:25 INFO  com.app.main.BankMain  - Employee id found
+[main] 2021-07-19 13:02:25 INFO  com.app.main.BankMain  - ENTER THE REGISTERED PASSWORD FOR EMPLOYEE 
+
+[main] 2021-07-19 13:02:30 INFO  com.app.main.BankMain  - Employee password correct
+[main] 2021-07-19 13:02:30 INFO  com.app.main.BankMain  - Hello Employee with id no. : 500000
+[main] 2021-07-19 13:02:30 INFO  com.app.main.BankMain  - Employee logged into account500000
+[main] 2021-07-19 13:02:30 INFO  com.app.main.BankMain  - Welcome to ShivuBank Management
+[main] 2021-07-19 13:02:30 INFO  com.app.main.BankMain  - You have successfully logged in
+[main] 2021-07-19 13:02:30 INFO  com.app.main.BankMain  - Select the operation you want perform
+[main] 2021-07-19 13:02:30 INFO  com.app.main.BankMain  - Press 1 to see all customers
+press 2 to enable/disable account
+press 3 to logout
+[main] 2021-07-19 13:02:42 INFO  com.app.main.BankMain  - Customer [customerid=100000, customername=shivam, customerphoneno=9987898988, customergender=male, customerpassword=skhsdak, customeremailid=ndiasdbdci, customerpancard=null]
+[main] 2021-07-19 13:02:42 INFO  com.app.main.BankMain  - Customer [customerid=100001, customername=shiv, customerphoneno=9876543210, customergender=male, customerpassword=shivu@123, customeremailid=1, customerpancard=null]
+[main] 2021-07-19 13:02:42 INFO  com.app.main.BankMain  - Customer [customerid=100003, customername=shivu, customerphoneno=9807654321, customergender=male, customerpassword=shiva@123, customeremailid=abc, customerpancard=null]
+[main] 2021-07-19 13:02:42 INFO  com.app.main.BankMain  - Customer [customerid=100004, customername=shivu, customerphoneno=9807654321, customergender=male, customerpassword=shiva@123, customeremailid=abc, customerpancard=null]
+[main] 2021-07-19 13:02:42 INFO  com.app.main.BankMain  - Customer [customerid=100005, customername=asdf, customerphoneno=1234567890, customergender=male, customerpassword=asdfg, customeremailid=abcd, customerpancard=null]
+[main] 2021-07-19 13:02:42 INFO  com.app.main.BankMain  - Customer [customerid=100006, customername=asdf, customerphoneno=1234567890, customergender=male, customerpassword=asdfg, customeremailid=abcd, customerpancard=null]
+[main] 2021-07-19 13:02:42 INFO  com.app.main.BankMain  - Customer [customerid=100007, customername=Vinay, customerphoneno=1234567890, customergender=Male, customerpassword=vinay@123, customeremailid=asdfgh, customerpancard=null]
+[main] 2021-07-19 13:02:42 INFO  com.app.main.BankMain  - Customer [customerid=100008, customername=rahul, customerphoneno=9999988888, customergender=male, customerpassword=shivu123, customeremailid=rahul123, customerpancard=null]
+[main] 2021-07-19 13:02:42 INFO  com.app.main.BankMain  - Customer [customerid=100009, customername=anmol, customerphoneno=1234567809, customergender=male, customerpassword=anmol123, customeremailid=amnol@123, customerpancard=null]
+[main] 2021-07-19 13:02:42 INFO  com.app.main.BankMain  - Employee logged into account500000
+[main] 2021-07-19 13:02:42 INFO  com.app.main.BankMain  - Welcome to ShivuBank Management
+[main] 2021-07-19 13:02:42 INFO  com.app.main.BankMain  - You have successfully logged in
+[main] 2021-07-19 13:02:42 INFO  com.app.main.BankMain  - Select the operation you want perform
+[main] 2021-07-19 13:02:42 INFO  com.app.main.BankMain  - Press 1 to see all customers
+press 2 to enable/disable account
+press 3 to logout
+[main] 2021-07-19 13:03:01 INFO  com.app.main.BankMain  - Thankyou For Using ShivuBank App.. Have a Nice Day
+[main] 2021-07-19 13:03:01 INFO  com.app.main.BankMain  - 
+BANK'S MENU
+[main] 2021-07-19 13:03:01 INFO  com.app.main.BankMain  - ============================================
+[main] 2021-07-19 13:03:01 INFO  com.app.main.BankMain  - 1)LOGIN AS EMPLOYEE
+[main] 2021-07-19 13:03:01 INFO  com.app.main.BankMain  - 2)LOGIN AS CUSTOMER
+[main] 2021-07-19 13:03:01 INFO  com.app.main.BankMain  - 3)MAIN MENU
+[main] 2021-07-19 13:03:01 INFO  com.app.main.BankMain  - 4)EXIT
+[main] 2021-07-19 13:03:01 INFO  com.app.main.BankMain  - =============================================
+[main] 2021-07-19 13:03:01 INFO  com.app.main.BankMain  - If You Are New Here. Please Register First
+[main] 2021-07-19 13:03:06 INFO  com.app.main.BankMain  - 
+WELCOME TO CUSTOMER LOGIN SCREEN
+[main] 2021-07-19 13:03:06 INFO  com.app.main.BankMain  - ======================================================
+[main] 2021-07-19 13:03:06 INFO  com.app.main.BankMain  - ENTER THE REGISTERED ID FOR CUSTOMER 
+
+[main] 2021-07-19 13:03:16 INFO  com.app.main.BankMain  - Customer id found
+[main] 2021-07-19 13:03:16 INFO  com.app.main.BankMain  - ENTER THE REGISTERED PASSWORD FOR CUSTOMER 
+
+[main] 2021-07-19 13:03:31 INFO  com.app.main.BankMain  - Customer password correct
+[main] 2021-07-19 13:03:31 INFO  com.app.main.BankMain  - Hello Customer with id no. : 100007
+[main] 2021-07-19 13:03:31 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100007
+[main] 2021-07-19 13:03:31 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 13:03:31 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 13:03:31 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 13:03:31 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 13:03:45 INFO  com.app.main.BankMain  - Enter the registered Accountno
+[main] 2021-07-19 13:04:09 INFO  com.app.main.BankMain  - Accountno. id found
+[main] 2021-07-19 13:04:10 INFO  com.app.main.BankMain  - Enter the Amount you Want to Withdarw
+[main] 2021-07-19 13:04:19 INFO  com.app.dao.impl.Bankdaoimpl  - Withdraw is Successful
+[main] 2021-07-19 13:04:19 INFO  com.app.main.BankMain  - Amount Withdrawn : 5000.0 from Accountno : 199923000001 Account holder name : Vinay New Balance is : 18000.0
+[main] 2021-07-19 13:04:19 INFO  com.app.main.BankMain  - CUSTOMER LOGGED INTO ACCOUNT WITH ID NO :100007
+[main] 2021-07-19 13:04:19 INFO  com.app.main.BankMain  - WELCOME TO SHIVUBANK
+[main] 2021-07-19 13:04:19 INFO  com.app.main.BankMain  - YOU HAVE SUCCESSFULLY LOGGED IN
+[main] 2021-07-19 13:04:19 INFO  com.app.main.BankMain  - MENU
+[main] 2021-07-19 13:04:19 INFO  com.app.main.BankMain  - press 1 to open New Account
+press 2 to Transfer
+press 3 to Withdraw
+press 4 to Deposit
+press 5 to view statements
+press 6 to Logout
+[main] 2021-07-19 13:04:35 INFO  com.app.main.BankMain  - For input string: ""
+[main] 2021-07-19 13:04:35 INFO  com.app.main.BankMain  - Enter the registered Accountno

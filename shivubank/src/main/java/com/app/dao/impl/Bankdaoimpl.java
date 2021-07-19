@@ -117,7 +117,7 @@ public class Bankdaoimpl implements Bankdao{
 				log.info("Account Opened Successfully");
 				ResultSet resultset = preparedStatement.getGeneratedKeys();
 				if(resultset.next()) {
-					account.setCustomeraccountno(resultset.getLong(5));
+					account.setCustomeraccountno(resultset.getLong("accountno"));
 				}
 			}
 		} catch (ClassNotFoundException | SQLException e) {
@@ -136,15 +136,14 @@ public class Bankdaoimpl implements Bankdao{
          List<Customer> customerList=new ArrayList<>();
 		
 		try (Connection connection = PostgresConnection.getConnection()) {
-			System.out.println("hello");
-			String sql="select * from banking_schema.customer ";
+			System.out.println("Hello Employee");
+			String sql="select * from banking_schema.customer";
 			
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			ResultSet resultSet=preparedStatement.executeQuery();
 			
 			while(resultSet.next())
-			{
-				
+			{	
 				Customer customer=new Customer();
 				customer.setCustomerid(resultSet.getLong("customerid"));
 				customer.setCustomername(resultSet.getString("customername"));
@@ -270,7 +269,7 @@ public class Bankdaoimpl implements Bankdao{
 	public String getcustomernamebyaccountno(long accountno) throws BusinessException {
 		String tcustomername =null;
 		 try (Connection connection = PostgresConnection.getConnection()) {
-			 String sql = "select c.customername from banking_schema.customer c join banking_schema.account a on c.customerid = (select a.customerid from banking_schema.account where accountno=?)";
+			 String sql = "select c.customername from banking_schema.customer c join banking_schema.account on c.customerid = (select a.customerid from banking_schema.account a where accountno=?)";
 			 PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			 preparedStatement.setLong(1, accountno);
 			 ResultSet resultset = preparedStatement.executeQuery();

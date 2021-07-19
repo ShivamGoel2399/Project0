@@ -118,6 +118,7 @@ public class BankMain {
 									switch (ch2) { // switch ch2 open
 									case 1 : 
 										List<Customer> customerList=new ArrayList<>();
+										customerList = employeeservice.getAllCustomers();
 									if(customerList!=null) {	 
 										for(Customer c:customerList) {
 											log.info(c);
@@ -285,7 +286,7 @@ public class BankMain {
 										}catch(BusinessException e) {
 											log.warn(e);
 										}
-										if(balance < amount) {
+										if(balance < amount || amount < 0) {
 											log.warn("Enter the Valid Amount to Withdraw");
 											z=false;
 										}else {
@@ -383,7 +384,8 @@ public class BankMain {
 					
 					}
 					
-					}while (s != 4);
+					
+					}while (s != 3);
 						
 				break;
 			case 2:
@@ -417,7 +419,7 @@ public class BankMain {
 					log.info("Enter your Pan Card");
 					String customerpancard=sc.nextLine();
 					if(customerpancard.matches("[A-Z]{5}[0-9]{4}[A-Z]{1}")) {
-					customer2 = new Customer(customername,customerphoneno,customergender,customeremailid,customerpassword,customerpancard);
+					customer2 = new Customer(customername,customerphoneno,customergender,customerpassword,customeremailid,customerpancard);
 					customer2 = customerservice.registercustomer(customer2);
 					}
 					else{

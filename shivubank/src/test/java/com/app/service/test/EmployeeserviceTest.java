@@ -14,7 +14,7 @@ class EmployeeserviceTest {
 	public static Employeeservice employeeservice;
 
 	@BeforeAll
-	public static void setup() {
+	public static void setupEmployeeservice() {
 		employeeservice = new Employeeserviceimpl();
 
 	}
